@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+form {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label, input, button {
+    display: block;
+    width: 2    00px;
+    margin: 10px 0px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #0000;
+}
+.logout-sec{
+    display: flex;
+    padding: 12px;
+    margin: 0 25px !important;
+}
+.main{
+ display: flex;
+ flex-direction: column;
+}
+#logoutButton{
+    margin: 0px 25px;
+}
+#username1 {
+    font-weight: bold !important;
+}
+
+#areaa{
+    border: 2px solid #000 !important;
+}
